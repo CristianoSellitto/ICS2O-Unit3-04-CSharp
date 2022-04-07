@@ -19,7 +19,7 @@ class Program
 
             Console.WriteLine("Enter temperature in celsius:");
             celsius = Convert.ToSingle(Console.ReadLine());
-            answer = (celsius * 9/5) + 32;
+            answer = (celsius * 9 / 5) + 32;
             Console.WriteLine("This temperature is equal to " + answer + "°F");
         }
         else if (selection == "fahrenheit")
@@ -28,7 +28,7 @@ class Program
 
             Console.WriteLine("Enter temperature in fahrenheit:");
             fahrenheit = Convert.ToSingle(Console.ReadLine());
-            answer = (fahrenheit - 32) * (5/9);
+            answer = (fahrenheit - 32) * (5 / 9);
             Console.WriteLine("This temperature is equal to " + answer + "°C");
         }
         else
